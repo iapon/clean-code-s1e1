@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.hero {
+header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.hero img {
+header img {
   width: 100%;
 }
-.hero .more-info {
+header .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .hero { 
+  header { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
